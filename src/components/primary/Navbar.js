@@ -12,8 +12,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 z-40 w-full py-6">
-      <div className="flex flex-wrap items-center justify-between w-full px-5 md:justify-around md:px-10">
+    <nav className="fixed top-0 left-0 z-40 w-full px-10 py-6">
+      <div className="flex flex-wrap items-center justify-between w-full md:justify-around">
         <Link href='/'>
           <img src="/assets/logo/logo2.png" className="w-24 h-auto md:hidden" alt="Logo" />
         </Link>
@@ -33,26 +33,25 @@ const Navbar = () => {
           <Link href='/'>
             <img src="/assets/logo/logo2.png" className="hidden w-24 h-auto md:block" alt="Logo" />
           </Link>
-          <ul className="flex flex-col p-4 mt-4 bg-black border border-none rounded opacity-75 md:flex-row md:w-3/5 md:justify-around rtl:space-x-reverse md:bg-transparent md:mt-0">
+          <ul className="flex flex-col p-4 mt-4 bg-black border border-none rounded md:flex-row md:w-3/5 md:justify-around rtl:space-x-reverse md:bg-transparent md:mt-0">
             <li>
-              <Link href="/" className="block px-3 py-2 text-white hover:text-orange-500">INICIO</Link>
+              <Link href="/" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">INICIO</Link>
             </li>
             <li>
-              <Link href="/" className="block px-3 py-2 text-white hover:text-orange-400">NOSOTROS</Link>
+              <Link href="/" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">NOSOTROS</Link>
             </li>
             <li>
-              <Link href="/portafolio" className="block px-3 py-2 text-white hover:text-orange-400">PORTAFOLIO</Link>
+              <Link href="/portafolio" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">PORTAFOLIO</Link>
             </li>
             <li>
-              <Link href="/contactanos" className="block px-3 py-2 text-white hover:text-orange-400">CONTÁCTANOS</Link>
+              <Link href="/contactanos" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">CONTÁCTANOS</Link>
             </li>
           </ul>
           <div className="hidden gap-2 text-white md:flex md:items-center">
-            <a href="mailto:clubsdycpapafrancisco@gmail.com"><BiLogoGmail className="w-5 h-auto hover:text-orange-400" /></a>
-            <a href='https://www.facebook.com/jose.kraitz'><FaFacebook className="w-5 h-auto hover:text-orange-400" /></a>
-            <a href='https://www.youtube.com/@josekraitz8023'><FaYoutube className="w-5 h-auto hover:text-orange-400" /></a>
-            <a href='https://www.instagram.com/kraitzjose/'><FaInstagram className="w-5 h-auto hover:text-orange-400" /></a>
-            <a href='https://www.tiktok.com/@long.hun3'><FaTiktok className="w-5 h-auto hover:text-orange-400" /></a>
+            <a href='https://www.facebook.com/jose.kraitz'><FaFacebook className="w-5 h-auto hover:text-orange-400 active:text-black" /></a>
+            <a href='https://www.youtube.com/@josekraitz8023'><FaYoutube className="w-5 h-auto hover:text-orange-400 active:text-black" /></a>
+            <a href='https://www.instagram.com/kraitzjose/'><FaInstagram className="w-5 h-auto hover:text-orange-400 active:text-black" /></a>
+            <a href='https://www.tiktok.com/@long.hun3'><FaTiktok className="w-5 h-auto hover:text-orange-400 active:text-black" /></a>
           </div>
         </div>
       </div>

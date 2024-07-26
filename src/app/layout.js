@@ -1,9 +1,10 @@
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
 import Navbar from "@/components/primary/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+// Importa Open Sans
+const openSans = Open_Sans({ subsets: ["latin"], variable: "--font-open-sans" });
 
 export const metadata = {
   title: "Create Next App",
@@ -14,9 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js" defer></script>
       </Head>
-      <body className="bg-black">
+      <body className={`bg-black ${openSans.variable}`}>
         <Navbar />
         {children}
       </body>

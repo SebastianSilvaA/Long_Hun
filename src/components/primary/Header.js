@@ -23,7 +23,7 @@ const Header = () => {
                         <div className='text-xl font-medium'>Academia de</div>
                         <div className='text-3xl font-semibold'>ARTES MARCIALES</div>
                         <div className='text-3xl font-semibold'>CHINAS <span className='text-orange-400'>LONG HUN</span></div>
-                        <button className='px-6 py-3 mt-4 text-lg font-semibold text-white bg-orange-400 rounded-lg w-fit'>VER MÁS</button>
+                        <button className='px-6 py-3 mt-4 text-lg font-semibold text-white bg-orange-400 rounded-lg w-fit hover:bg-orange-600 active:bg-black'>VER MÁS</button>
                 </div>
             </div>
                 </div>
