@@ -40,10 +40,10 @@ const Carousel = () => {
                     <div className='text-4xl font-medium'>Academia de</div>
                     <div className='text-6xl font-semibold'>ARTES MARCIALES</div>
                     <div className='text-6xl font-semibold'>CHINAS <span className='text-orange-400'>LONG HUN</span></div>
-                    <button className='px-6 py-3 mt-4 text-3xl font-semibold text-white bg-orange-400 rounded-lg w-fit hover:bg-orange-600 active:bg-black'>VER MÁS</button>
+                    <button title='VER MAS' className='px-6 py-3 mt-4 text-3xl font-semibold text-white bg-orange-400 rounded-lg w-fit hover:bg-orange-600 active:bg-black'>VER MÁS</button>
                 </div>
             </div>
-            <button type="button" className="absolute top-0 z-40 flex items-center justify-center h-full px-4 bg-transparent border-none cursor-pointer start-0 group focus:outline-none" data-carousel-prev>
+            <button type="button" title='Previous' className="absolute top-0 z-40 flex items-center justify-center h-full px-4 bg-transparent border-none cursor-pointer start-0 group focus:outline-none" data-carousel-prev>
                 <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
                     <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 1 1 5l4 4"/>
@@ -51,7 +51,7 @@ const Carousel = () => {
                     <span className="sr-only">Previous</span>
                 </span>
             </button>
-            <button type="button" className="absolute top-0 z-40 flex items-center justify-center h-full px-4 bg-transparent border-none cursor-pointer end-0 group focus:outline-none" data-carousel-next>
+            <button title='Next' type="button" className="absolute top-0 z-40 flex items-center justify-center h-full px-4 bg-transparent border-none cursor-pointer end-0 group focus:outline-none" data-carousel-next>
                 <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
                     <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
