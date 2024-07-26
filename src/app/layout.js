@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
+import Navbar from "@/components/primary/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +16,7 @@ export default function RootLayout({ children }) {
       <Head>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js" defer></script>
       </Head>
-      <body className="bg-p-color">
+      <body className="bg-black">
         <Navbar />
         {children}
       </body>
