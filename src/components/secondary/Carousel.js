@@ -37,7 +37,7 @@ const Carousel = () => {
             </div>
             <div className='absolute top-0 left-0 z-40 flex items-center justify-center w-full h-full text-white'>
                 <div className='flex flex-col gap-5 mt-16'>
-                    <div className='text-4xl font-medium'>Academia de</div>
+                    <div className='text-3xl font-medium'>ACADEMIA DE</div>
                     <div className='text-6xl font-semibold'>ARTES MARCIALES</div>
                     <div className='text-6xl font-semibold'>CHINAS <span className='text-orange-400'>LONG HUN</span></div>
                     <button title='VER MAS' className='px-6 py-3 mt-4 text-3xl font-semibold text-white bg-orange-400 rounded-lg w-fit hover:bg-orange-600 active:bg-black'>VER MÁS</button>

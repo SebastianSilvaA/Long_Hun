@@ -14,7 +14,13 @@ module.exports = {
       },
       brightness: {
         30: '0.4',
-      }
+      },
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
+      },
+      fontWeight: {
+        bold: '700', // Asegúrate de que esto coincide con el peso en Google Fonts
+      },
     },
   },
   plugins: [],

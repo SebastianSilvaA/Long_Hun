@@ -1,0 +1,10 @@
+body {
+    background-image: url('/assets/nosotrosImg/fondonosotros.avif');
+
+    background-size: cover;
+          
+     background-position: center;
+           
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+}

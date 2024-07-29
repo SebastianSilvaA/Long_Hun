@@ -16,6 +16,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js" defer></script>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+          />
       </Head>
       <body className={`bg-black ${openSans.variable}`}>
         <Navbar />

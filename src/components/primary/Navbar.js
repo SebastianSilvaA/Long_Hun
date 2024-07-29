@@ -38,7 +38,7 @@ const Navbar = () => {
               <Link href="/" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">INICIO</Link>
             </li>
             <li title='Nosotros'>
-              <Link href="/" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">NOSOTROS</Link>
+              <Link href="/nosotros" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">NOSOTROS</Link>
             </li>
             <li title='Portafolio'> 
               <Link href="/portafolio" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">PORTAFOLIO</Link>
