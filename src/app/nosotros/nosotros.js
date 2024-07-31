@@ -5,12 +5,12 @@ export default function Nosotros() {
     return (
         <>
         <div className="mt-60">
-        <div className=" flex items-center justify-center text-3xl font-semibold text-orange-400">NOSOTROS</div>
-        <div className=" flex items-center justify-center text-white text-5xl font-semibold">ACADEMIA DE ARTES MARCIALES</div>
+        <div className=" flex items-center justify-center text-3xl font-bold text-orange-400 pb-4">NOSOTROS</div>
+        <div className=" flex items-center justify-center text-white text-5xl font-bold">ACADEMIA DE ARTES MARCIALES</div>
         </div>
         <div className=" pb-16 mt-16 w-full p-4 flex items-center justify-center">
-            <img src="/assets/nosotrosImg/nosotros1.jpg" className="size-96"></img> 
-            <div className=" max-w-md text-white text-2xl ml-8">En <span className="text-orange-400">Long Hun</span> nos caracterizamos por ser
+            <img src="/assets/nosotrosImg/nosotros1.jpg" className="size-6/12"></img> 
+            <div className=" max-w-md text-white text-2xl ml-10">En <span className="text-orange-400">Long Hun</span> nos caracterizamos por ser
                  una academia encargada de difundir el
                  Kung Fu basado en el programa del Temple
                  Shaolin para Sudamérica, sumando la
@@ -24,7 +24,7 @@ export default function Nosotros() {
             </div>
         </div>
 
-        <div className="p-10 mt-16 flex items-stretch justify-center w-full">
+        <div className=" back2 p-10 mt-16 flex items-stretch justify-center w-full">
   <div title="PAPAFRANCISCODIV" className=" flex flex-col items-center mx-4 flex-1">
     <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-200 flex items-center justify-center">
       <div className="relative w-full h-full">
