@@ -1,21 +1,39 @@
 "use client";
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { FaFacebook, FaYoutube, FaInstagram, FaTiktok } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <nav className="fixed top-0 left-0 z-40 w-full px-10 py-6">
+    <nav className={`fixed top-0 left-0 z-40 w-full px-10 py-6 transition-colors duration-500 ${scrolled ? 'bg-black bg-opacity-80' : 'bg-transparent'}`}>
       <div className="flex flex-wrap items-center justify-between w-full md:justify-around">
         <Link href='/'>
-          <img title='Long Hun logo' src="/assets/logo/logo2.png" className="w-24 h-auto md:hidden" alt="Logo" />
+          <img title='Long Hun logo' src="/assets/logo/logo2.png" className="w-20 h-auto md:hidden" alt="Logo" />
         </Link>
         <button
           title='Open Menu'
@@ -31,7 +49,7 @@ const Navbar = () => {
         </button>
         <div className={`w-full ${isOpen ? 'block' : 'hidden'} md:flex md:items-center md:justify-between`} id="navbar-default">
           <Link href='/'>
-            <img title='Long Hun logo' src="/assets/logo/logo2.png" className="hidden w-24 h-auto md:block" alt="Logo" />
+            <img title='Long Hun logo' src="/assets/logo/logo2.png" className="hidden w-20 h-auto md:block" alt="Logo" />
           </Link>
           <ul className="flex flex-col p-4 mt-4 bg-black border border-none rounded bg-opacity-90 md:flex-row md:w-3/5 md:justify-around rtl:space-x-reverse md:bg-transparent md:mt-0">
             <li title='Inicio'>
