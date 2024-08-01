@@ -37,16 +37,7 @@ const Portafolio = () => {
             </ul>
             
         </div>
-
-        <Footer/>
-
-     
-
-
-
-
-
-  
+       
         </>
     );
 }

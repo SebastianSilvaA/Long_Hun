@@ -81,10 +81,21 @@ const Footer = () => {
     </div>
   </div>
 
-        <footer className="flex justify-between items-center p-5 bg-customBlack">
-            <div className="text-white text-xs justify-start ml-10">© Copyright Long Hun Todos los derechos reservados 2024 </div>
-            <div className="text-white text-xs justify-end mr-10">Desarrollado por <button className="text-orange-400"> Sebastián Silva</button> y <button className="text-orange-400"> Camila Castro</button> Diseñado por <button className="text-orange-400">Melanie Zamalloa</button></div>
-        </footer>
+  <footer className="flex justify-between items-center p-5 bg-customBlack">
+    <div className="text-white text-xs justify-start ml-10">
+        © Copyright Long Hun Todos los derechos reservados 2024
+    </div>
+    <div className="text-white text-xs justify-end mr-10">
+        Desarrollado por 
+        <a  href="https://github.com/SebastianSilvaA" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:underline ml-1">Sebastián Silva</a>
+
+         y 
+         
+        <a href="https://github.com/CamilaCastro98" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:underline ml-1">Camila Castro</a>
+        Diseñado por 
+        <a href="https://github.com/MelanieZamalloa" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:underline ml-1">Melanie Zamalloa</a>
+    </div>
+</footer>
 
 
         </>
