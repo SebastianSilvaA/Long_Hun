@@ -7,8 +7,8 @@ const Contacto = () => {
     return (
       <>
         <div className="flex flex-col items-center gap-8 mb-10 md:mb-0 md:gap-0">      
-         <div className="mt-36">
-        <div className="flex items-center justify-center pb-3 text-lg font-bold text-orange-400 md:text-3xl ">REDES SOCIALES</div>
+         <div className="mt-10">
+        <div className="flex items-center justify-center pb-3 text-3xl font-bold text-orange-400 md:text-3xl ">REDES SOCIALES</div>
         <div className="flex items-center justify-center text-2xl font-bold text-white md:text-4xl ">LONG HUN</div>
         </div>
        <ul className="flex flex-col items-center gap-4 md:p-20 md:grid md:grid-cols-6 lg:lg-custom-grid-rows">

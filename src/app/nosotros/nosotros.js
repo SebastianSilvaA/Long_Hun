@@ -5,7 +5,7 @@ export default function Nosotros() {
     return (
         <>
         <div className="flex flex-col justify-center">
-        <div className="mt-40">
+        <div className="mt-10">
           <div className="flex items-center justify-center pb-4 text-xl font-bold text-orange-400 md:text-3xl ">NOSOTROS</div>
           <div className="flex items-center justify-center text-3xl font-bold text-center text-white md:text-5xl ">ACADEMIA DE ARTES MARCIALES</div>
         </div>
