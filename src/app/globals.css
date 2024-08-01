@@ -8,3 +8,11 @@
     text-wrap: balance;
   }
 }
+
+@layer utilities {
+  @media (min-width: 1024px) {
+    .lg-custom-grid-rows {
+      grid-template-rows: repeat(2, 450px);
+    }
+  }
+}
