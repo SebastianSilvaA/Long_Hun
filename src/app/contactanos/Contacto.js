@@ -6,20 +6,26 @@ const Contacto = () => {
     return (
         <>
          <div className="mt-60">
-        <div className=" flex items-center justify-center text-3xl font-bold text-orange-400 pb-3">REDES SOCIALES</div>
-        <div className=" flex items-center justify-center text-white text-4xl font-bold">LONG HUN</div>
+        <div className="flex items-center justify-center pb-3 text-3xl font-bold text-orange-400 ">REDES SOCIALES</div>
+        <div className="flex items-center justify-center text-4xl font-bold text-white ">LONG HUN</div>
         </div>
-       <div className="flex justify-center aling-items-center">
-
-        <Card imageSrc ="/assets/contactosImg/facebook.jpg" content="FACEBOOK" content2="JOSE KRAITZ"/>
-        <Card  imageSrc ="/assets/contactosImg/instagramjose.jpg"  content="INSTAGRAM" content2="LONGHUN"/>
-        <Card imageSrc={"/assets/contactosImg/longhunig.jpg"} content="YOUTUBE" content2="JOSE KRAITZ"/>
-       
-       </div>
-
-       <div>
-        <Card2 imageSrc ="/assets/contactosImg/longhunig.jpg" content="YOUTUBE" content2="JOSE KRAITZ"/>
-       </div>
+       <ul className="grid grid-cols-6 grid-rows-2 gap-4 p-20" style={{ gridTemplateRows: 'repeat(2, 450px)' }}>
+            <li className="col-span-2 row-span-1">
+                <Card imageSrc ="/assets/contactosImg/facebook.jpg" content="FACEBOOK" content2="JOSE KRAITZ"/>
+            </li>
+            <li className="col-span-2 row-span-1">
+                <Card  imageSrc ="/assets/contactosImg/instagramjose.jpg"  content="INSTAGRAM" content2="LONGHUN"/>
+            </li>
+            <li className="col-span-2 row-span-1">
+                <Card imageSrc={"/assets/contactosImg/longhunig.jpg"} content="YOUTUBE" content2="JOSE KRAITZ"/>  
+            </li>
+            <li className="col-span-3 row-span-2">
+                <Card2 imageSrc ="/assets/contactosImg/longhunig.jpg" content="YOUTUBE" content2="JOSE KRAITZ"/>
+            </li>
+            <li className="col-span-3 row-span-2">
+                <Card2 imageSrc ="/assets/contactosImg/longhunig.jpg" content="YOUTUBE" content2="JOSE KRAITZ"/>
+            </li>
+       </ul>
 
 
         
