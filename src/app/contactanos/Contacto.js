@@ -31,7 +31,7 @@ const Contacto = () => {
             </li>
        </ul>
 
-       <div className="flex items-center justify-center bg-black p-20">
+       <div className="flex items-center justify-center bg-black p-32">
       <div className="flex space-x-8 ">
         <div className="flex items-center space-x-4 mr-40">
           <div className="bg-[#232323] rounded-full p-5">
