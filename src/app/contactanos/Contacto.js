@@ -7,25 +7,25 @@ const Contacto = () => {
     return (
       <>
         <div className="flex flex-col items-center gap-8 mb-10 md:mb-0 md:gap-0">      
-         <div className="mt-36">
-        <div className="flex items-center justify-center pb-3 text-lg font-bold text-orange-400 md:text-3xl ">REDES SOCIALES</div>
+         <div className="mt-10">
+        <div className="flex items-center justify-center pb-3 text-3xl font-bold text-orange-400 md:text-3xl ">REDES SOCIALES</div>
         <div className="flex items-center justify-center text-2xl font-bold text-white md:text-4xl ">LONG HUN</div>
         </div>
        <ul className="flex flex-col items-center gap-4 md:p-20 md:grid md:grid-cols-6 lg:lg-custom-grid-rows">
             <li className="col-span-2 row-span-1">
-                <Card imageSrc ="/assets/contactosImg/facebook.jpg" content="FACEBOOK" content2="JOSE KRAITZ"/>
+                <Card link={"https://www.facebook.com/jose.kraitz"} imageSrc ="/assets/contactosImg/facebook.jpg" content="FACEBOOK" content2="JOSE KRAITZ"/>
             </li>
             <li className="md:col-span-2 md:row-span-1">
-                <Card  imageSrc ="/assets/contactosImg/instagramjose.jpg"  content="INSTAGRAM" content2="LONGHUN"/>
+                <Card link={"https://www.instagram.com/kraitzjose/"} imageSrc ="/assets/contactosImg/instagramjose.jpg"  content="INSTAGRAM" content2="JOSE KRAITZ"/>
             </li>
             <li className="md:col-span-2 md:row-span-1">
-                <Card imageSrc={"/assets/contactosImg/longhunig.jpg"} content="YOUTUBE" content2="JOSE KRAITZ"/>  
+                <Card link={"https://www.youtube.com/@josekraitz8023"} imageSrc={"/assets/contactosImg/longhunig.jpg"} content="YOUTUBE" content2="JOSE KRAITZ"/>  
             </li>
             <li className="md:col-span-3 md:row-span-2">
-                <Card2 imageSrc ="/assets/contactosImg/longhunig.jpg" content="INSTAGRAM" content2="_LONGHUN"/>
+                <Card2 link={"https://www.instagram.com/_longhun/"}  imageSrc ="/assets/contactosImg/longhunig.jpg" content="INSTAGRAM" content2="_LONGHUN"/>
             </li>
             <li className="md:col-span-3 md:row-span-2">
-                <Card2 imageSrc ="/assets/contactosImg/tiktok.jpg" content="TIKTOK" content2="LONG.HUN3"/>
+                <Card2 link={"https://www.tiktok.com/@long.hun3"} imageSrc ="/assets/contactosImg/tiktok.jpg" content="TIKTOK" content2="LONG.HUN3"/>
             </li>
        </ul>
        </div>

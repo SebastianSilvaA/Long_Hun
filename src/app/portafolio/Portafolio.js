@@ -10,7 +10,7 @@ const Portafolio = () => {
         
         <>
         
-        <div className="mt-60">
+        <div className="">
 
             <ul className="grid grid-cols-6 grid-rows-4 gap-4 p-10 lg:grid-rows-2">
 
