@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa";
 const Card = ({ imageSrc, content, content2, imgClass, link }) => {
     return (
         <div className="flex items-center">
-        <div className="inline-block overflow-hidden transition duration-300 transform shadow-xl hover:shadow-2xl hover:scale-105">
-            <img className={`w-auto h-80 object-cover ${imgClass}`} src={imageSrc} alt="" />
+        <div className="inline-block overflow-hidden transition duration-300 transform shadow-xl max-w hover:shadow-2xl hover:scale-105">
+            <img className={`w-80 h-auto md:w-auto md:h-52 lg:h-80 object-cover ${imgClass}`} src={imageSrc} alt="" />
             <div className="flex items-center justify-between p-4 mt-2 bg-customBlack">
                 <div>
                     <div className="text-xl text-orange-400">{content}</div>

@@ -23,8 +23,12 @@ module.exports = {
         sans: ['Open Sans', 'sans-serif'],
       },
       fontWeight: {
-        bold: '700', // Asegúrate de que esto coincide con el peso en Google Fonts
+        bold: '700',
       },
+      height: {
+        '300': '300px',
+      },
+
     },
   },
   plugins: [],

@@ -20,8 +20,8 @@ const Carousel = () => {
     }, []);
 
     return (
-        <div id="animation-carousel" className="relative z-0 w-full" data-carousel="slide">
-            <div className="relative h-screen">
+        <div id="animation-carousel" className="relative z-0" data-carousel="slide">
+            <div className="relative h-screen overflow-hidden">
                 <div className="duration-500 ease-linear" data-carousel-item="active">
                     <img src="/assets/carouselImg/img5.jpeg" className="absolute inset-0 object-cover w-full h-full filter brightness-30" alt="Slide 1" />
                 </div>

@@ -5,22 +5,15 @@ import Portafolio from "./portafolio/Portafolio";
 import Footer from "@/components/primary/footer";
 
 
+
 export default function Home() {
   return (
     <>
     <Header/>
     <Nosotros/>
     <Contacto/>
-    <Portafolio/>
+    <Portafolio />
     <Footer/>
     </>
-   
-    
-  
-
-   
-      
-
-
   );
 }

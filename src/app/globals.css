@@ -16,3 +16,18 @@
     }
   }
 }
+@layer utilities {
+  @media (max-width: 1024px) {
+    .custom-grid-rows {
+      grid-template-rows: repeat(2, 300px);
+    }
+  }
+}
+
+@layer utilities {
+  @media (max-width: 1024px) {
+    .sm-custom-grid-rows {
+      grid-template-rows: repeat(2, 150px);
+    }
+  }
+}

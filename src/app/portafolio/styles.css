@@ -1,6 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
     background-image: url('/assets/nosotrosImg/fondo2.jpg');
-
+    
     background-size: cover;
           
      background-position: center;
@@ -8,3 +13,19 @@ body {
      background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+@layer utilities {
+    @media (max-width: 1024px) {
+      .custom-grid-rows {
+        grid-template-rows: repeat(2, 300px);
+      }
+    }
+  }
+
+@layer utilities {
+    @media (max-width: 1024px) {
+      .sm-custom-grid-rows {
+        grid-template-rows: repeat(2, 150px);
+      }
+    }
+  }
