@@ -41,13 +41,13 @@ const HeaderWithVideo = () => {
 
   return (
     <header className='relative w-full h-auto pt-20 pb-10 overflow-hidden bg-transparent !bg-black lg:flex lg:justify-center'>
-      <video ref={videoRef} autoPlay muted playsInline  className="w-full h-auto lg:w-2/3"
+      <video ref={videoRef} autoPlay muted playsInline  className="w-full h-auto lg:!w-2/3"
         style={{ display: videoEnded ? 'none' : 'block' }}>
         <source src="/assets/video/torneo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <canvas ref={canvasRef}
-        className={`w-full h-auto lg:w-2/3 ${videoEnded ? 'block' : 'hidden'}`}
+        className={`w-full h-auto lg:!w-2/3 ${videoEnded ? 'block' : 'hidden'}`}
         style={{ display: videoEnded ? 'block' : 'none' }}/>
     </header>
   );
