@@ -53,16 +53,19 @@ const Navbar = () => {
           </Link>
           <ul className="flex flex-col p-4 mt-4 bg-black border border-none rounded bg-opacity-90 md:flex-row md:w-3/5 md:justify-around rtl:space-x-reverse md:bg-transparent md:mt-0">
             <li title='Inicio'>
-              <Link href="/" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">INICIO</Link>
+              <Link href="/" className="block px-3 py-2 text-white md:text-xs lg:text-base hover:text-orange-400 active:text-black">INICIO</Link>
             </li>
             <li title='Nosotros'>
-              <Link href="/nosotros" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">NOSOTROS</Link>
+              <Link href="/nosotros" className="block px-3 py-2 text-white md:text-xs lg:text-base hover:text-orange-400 active:text-black">NOSOTROS</Link>
             </li>
             <li title='Portafolio'> 
-              <Link href="/portafolio" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">PORTAFOLIO</Link>
+              <Link href="/portafolio" className="block px-3 py-2 text-white md:text-xs lg:text-base hover:text-orange-400 active:text-black">PORTAFOLIO</Link>
             </li>
             <li title='Contactanos'>
-              <Link href="/contactanos" className="block px-3 py-2 text-white hover:text-orange-400 active:text-black">CONTÁCTANOS</Link>
+              <Link href="/contactanos" className="block px-3 py-2 text-white md:text-xs lg:text-base hover:text-orange-400 active:text-black">CONTÁCTANOS</Link>
+            </li>
+            <li title='Torneos'>
+              <Link href="/torneos" className="block px-3 py-2 text-white md:text-xs lg:text-base hover:text-orange-400 active:text-black">TORNEOS</Link>
             </li>
           </ul>
           <div className="hidden gap-2 text-white md:flex md:items-center">
