@@ -39,10 +39,17 @@ export default function Popup() {
         >
           <FaTimes />
         </button>
-        <Modal.Body className=" rounded-lg bg-customBlack flex flex-col items-center justify-center space-y-4">
-          <img src="/assets/popup.jpg" alt="Imagen" className="w-full h-auto" />
-          <Popbutton onClick={() => alert('Te has inscrito!')} />
-        </Modal.Body>
+        <Modal.Body className="rounded-lg bg-customBlack flex flex-col items-center justify-center space-y-4">
+  <img src="/assets/popup.jpg" alt="Imagen" className="w-full h-auto" />
+  <a
+    href="https://forms.gle/6Y7a43RGQdckzHCq8"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-4 py-2 font-bold text-center text-white bg-orange-400 rounded hover:bg-orange-500"
+  >
+    INSCRIBETE AQUI!
+  </a>
+</Modal.Body>
       </div>
     </Modal>
   );

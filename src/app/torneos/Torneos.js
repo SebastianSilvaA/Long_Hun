@@ -137,13 +137,24 @@ const Torneos = () => {
             ESTAR EN LA ZONA DE COMPETENCIA NI DAR INDICACIONES, PUESTO QUE,
             SERÁ MOTIVO DE DESCALIFICACIÓN DEL COMPETIDOR.
           </p>
-          <a
-            href="/assets/reglamento.pdf"
-            download="reglamento-torneo.pdf"
-            className="inline-block px-4 py-2 mt-10 font-bold text-center text-white bg-orange-400 rounded hover:bg-orange-500 "
-            >
-            MAS SOBRE EL REGLAMENTO
-            </a>
+          <div className="flex space-x-4 mt-10">
+  <a
+    href="/assets/reglamento.pdf"
+    download="reglamento-torneo.pdf"
+    className="inline-block px-4 py-2 font-bold text-center text-white bg-orange-400 rounded hover:bg-orange-500"
+  >
+    MAS SOBRE EL REGLAMENTO
+  </a>
+
+  <a
+    href="https://forms.gle/6Y7a43RGQdckzHCq8"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-4 py-2 font-bold text-center text-white bg-orange-400 rounded hover:bg-orange-500"
+  >
+    INSCRIBETE AQUI
+  </a>
+</div>
          </div>
       </div>
       </div>
