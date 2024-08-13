@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="flex-1 p-4 overflow-hidden">
       <div className="mb-2 text-xl font-semibold text-orange-400">LONG HUN</div>
       <div className="text-sm md:text-base">
-        Somos una academia de artes marciales chicas, donde podrás aprender Kung Fu Shaolin, Sanda, Taichi Chen, Kung Fu tradicional y defensa personal.
+        Somos una academia de artes marciales chinas, donde podrás aprender Kung Fu Shaolin, Sanda, Taichi Chen, Kung Fu tradicional y defensa personal.
       </div>
     </div>
 
