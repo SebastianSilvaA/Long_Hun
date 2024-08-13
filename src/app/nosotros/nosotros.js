@@ -1,4 +1,3 @@
-import Image from "next/image"
 import "./nosotros.css"
 
 export default function Nosotros() {
@@ -10,7 +9,7 @@ export default function Nosotros() {
           <div className="flex items-center justify-center text-3xl font-bold text-center text-white md:text-5xl ">ACADEMIA DE ARTES MARCIALES</div>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-10 p-4 pb-16 mt-10 lg:gap-2 lg:flex-row">
-            <img src="/assets/nosotrosImg/nosotros1.jpg" className="size-2/3 md:size-6/12"></img> 
+            <img src="/assets/nosotrosImg/nosotros1.jpg" className="size-2/3 md:size-6/12" alt="Imagen de nosotros" /> 
             <div className="max-w-md mx-10 text-lg text-white md:text-2xl lg:text-2xl">En <span className="text-orange-400">Long Hun</span> nos caracterizamos por ser
                  una academia encargada de difundir el
                  Kung Fu basado en el programa del Temple
@@ -30,11 +29,10 @@ export default function Nosotros() {
     <div title="PAPAFRANCISCODIV" className="flex flex-col items-center flex-1 mx-4">
     <div className="flex items-center justify-center w-32 h-32 overflow-hidden border-4 border-gray-200 rounded-full md:w-48 md:h-48">
       <div className="relative w-full h-full">
-        <Image
-          src="/assets/nosotrosIMG/papalogo.jpg"
+        <img
+          src="/assets/nosotrosImg/papalogo.jpg"
           alt="Logo"
-          layout="fill"
-          className="object-cover object-center"
+          className="object-cover object-center w-full h-full"
         />
       </div>
     </div>
@@ -45,11 +43,10 @@ export default function Nosotros() {
   <div title="TEMPLEDIV" className="flex flex-col items-center flex-1 mx-4">
     <div className="flex items-center justify-center w-32 h-32 overflow-hidden border-4 border-gray-200 rounded-full md:w-48 md:h-48">
       <div className="relative w-full h-full">
-        <Image
-          src="/assets/nosotrosIMG/shaolinlogo.jpg"
+        <img
+          src="/assets/nosotrosImg/shaolinlogo.jpg"
           alt="Logo"
-          layout="fill"
-          className="object-cover object-center"
+          className="object-cover object-center w-full h-full"
         />
       </div>
     </div>
@@ -59,9 +56,6 @@ export default function Nosotros() {
     </div>
   </div>
 </div>
-
-
-
         
         </>
     )

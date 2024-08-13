@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Carousel from "../secondary/Carousel";
 
 const Header = () => {
@@ -9,16 +8,13 @@ const Header = () => {
             </div>
             <div className="relative md:hidden">
                 <div style={{ position: 'relative', width: '100%', height: '500px' }}>
-                    <Image
+                    <img
                         src="/assets/mobileHeader/opt3.jpeg"
                         alt="Header Image"
-                        fill
-                        sizes="100vw, 50vw"
-                        priority
-                        style={{ objectFit: 'cover' }}
+                        style={{ objectFit: 'cover', width: '100%', height: '100%' }}
                         className='filter brightness-30'
                     />
-                     <div className='absolute top-0 left-0 z-30 flex items-center justify-center w-full h-full text-white'>
+                    <div className='absolute top-0 left-0 z-30 flex items-center justify-center w-full h-full text-white'>
                         <div className='flex flex-col gap-5 mt-16'>
                         <div className='text-xl font-medium'>Academia de</div>
                         <div className='text-3xl font-semibold'>ARTES MARCIALES</div>
@@ -33,5 +29,3 @@ const Header = () => {
 }
 
 export default Header;
-
-
